@@ -30,3 +30,14 @@ await client.query(query,update_values)
 ### drop query 
 - it delete table and schema all the things
 - DROP TABLE IF EXISTS table;
+
+
+## SOME ADVANCED THINGS
+#### JOINS
+- it is use to define a better query for search
+--------------------- !Type of joins ----------------
+- FULL JOIN ( should be present in the either tables )
+- INNER JOIN ( shoud be present in the both the tables )
+- LEFT JOIN ( should have all the entries in the left tables )
+- RIGHT JOIN ( opposite of left table )
+- by default JOIN is the inner join
